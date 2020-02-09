@@ -24,3 +24,10 @@ switch(fruits){
         alert('All other crops do well in other areas');
         break;
 }
+var i = 1;
+if (i<12){
+    document.write("less than 12");
+} 
+else{
+    document.write("Greater than 12")
+}
