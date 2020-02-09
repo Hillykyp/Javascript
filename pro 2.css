@@ -1,0 +1,16 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+    background: skyblue;
+    display: flex;
+    flex-direction: row;
+}
+ul, li,a{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-items: auto;
+    padding: 12px;
+}

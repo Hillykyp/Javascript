@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>USING LET & CONST IN PLACE OF VAR</title>
+    <link rel="stylesheet" href="projec 3.css">
+</head>
+<body>
+    <script>
+    const kip = [12,13,45,20,10,32];
+    kip.push(90)
+    kip [6] =100;
+    document.write(kip + '<br>');
+    let Firstname = "Hosea";
+    let Lastname ="Kiplimo";
+    document.write("My name is " +  Firstname +  Lastname +"<br>");
+
+// Concatination of arrays
+let num1 =[1,2,3,4,5];
+let num2 = [6,7,8,9,10];
+let num3 = num1.concat(num2);
+document.write(num3.reverse() +"<br>");
+
+// math PI
+ document.write(Math.PI +"<br>");
+
+ // maximum inumber
+ let students = Math.max(12,3,5,67,30,8);
+ document.write(students +'<br>');
+
+ const area = 3*100;
+ document.write(area +"<br>");
+
+ // Prompt command
+ let n = prompt("Enter a number", "");
+ let answer = Math.sqrt(n);
+ document.write(answer +"<br>");
+
+ var d = new Date();
+ document.write(d);
+    </script>
+</body>
+</html>
